@@ -2,8 +2,19 @@ body {
   background: #F2F2F2;
 }
 
-#hello1 {
+#logo1 {
   font-size: 20px;
   font-family: "times new roman";
+  font-weight: bold;
   color: black;
+}
+
+.nv {
+  font-size: 10px;
+  font-family: "bebas";
+  font-weight: bold;
+}
+
+#nv1 {
+  
 }
