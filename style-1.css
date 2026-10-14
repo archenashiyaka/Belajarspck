@@ -1,22 +1,29 @@
 body {
   background: #F2F2F2;
+  margin: 0%;
 }
 
-#logo1 {
+.kmzero {
+  margin: 0%;
+}
+
+.panel-atas {
+  background-color: #DCD2C6;
+}
+
+#logo-1 {
   font-size: 20px;
   font-family: "times new roman";
   font-weight: bold;
   color: black;
-  background-color: #DCD2C6;
 }
 
 .nv {
   font-size: 5px;
   font-family: "bebas";
   font-weight: bold;
-  background-color: #DCD2C6;
 }
 
-#nv1 {
+#nv-1 {
   
 }
