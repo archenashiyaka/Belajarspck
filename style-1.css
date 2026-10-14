@@ -5,21 +5,23 @@ body {
 
 .kmzero {
   margin: 0%;
+  padding: 2%;
 }
 
 .panel-atas {
   background-color: #DCD2C6;
 }
 
-#logo-1 {
+#nv {
   font-size: 20px;
   font-family: "times new roman";
   font-weight: bold;
   color: black;
 }
 
-.nv {
-  font-size: 5px;
+.nvc {
+  font-size: 10px;
   font-family: "bebas";
   font-weight: bold;
+  text-align: right;
 }
