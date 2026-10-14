@@ -10,7 +10,16 @@ body {
 
 .panel-atas {
   background-color: #DCD2C6;
+  height: 46.5px;
 }
+
+.nvc {
+  font-size: 10px;
+  font-family: "bebas";
+  font-weight: bold;
+  color: black;
+}
+
 
 #nv {
   font-size: 20px;
@@ -19,9 +28,15 @@ body {
   color: black;
 }
 
-.nvc {
-  font-size: 10px;
-  font-family: "bebas";
-  font-weight: bold;
+#nv2 {
+  position: relative; 
+  top: -42px;
+  text-align: right;
+}
+
+#nv3 {
+  position: relative; 
+  top: -77.5px;
+  right: 70px;
   text-align: right;
 }
