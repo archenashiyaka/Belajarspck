@@ -3,41 +3,35 @@ body {
   margin: 0%;
 }
 
-.kmzero {
-  margin: 0%;
-  padding: 2%;
-}
-
-.panel-atas {
+.container {
+  display: flex;
   position: sticky;
   background-color: #DCD2C6;
-  height: 46.5px;
 }
 
-.nvc {
-  font-size: 10px;
-  font-family: "bebas";
-  font-weight: bold;
-  color: black;
-}
-
-
-#nv {
-  font-size: 20px;
+.nv {
+  border: 1px solid black;
   font-family: "times new roman";
   font-weight: bold;
   color: black;
+  margin: 3%;
+  padding: 3%;
 }
 
+.nv2 {
+  border: 1px solid black;
+  font-family: Bebas Neue;
+  font-weight: lighter;
+  color: black;
+  margin: 3%;
+  padding: 3%;
+}
+
+#nv1 {
+}
+
+/*
 #nv2 {
   position: relative; 
-  top: -42px;
   text-align: right;
-}
-
-#nv3 {
-  position: relative; 
-  top: -77.5px;
-  right: 70px;
-  text-align: right;
-}
+}*/
