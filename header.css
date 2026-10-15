@@ -9,6 +9,11 @@ body {
   background-color: #DCD2C6;
 }
 
+.container2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .nv {
   border: 1px solid black;
   font-family: "times new roman";
