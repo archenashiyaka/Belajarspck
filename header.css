@@ -9,6 +9,7 @@ body {
 }
 
 .panel-atas {
+  position: sticky;
   background-color: #DCD2C6;
   height: 46.5px;
 }
