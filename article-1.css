@@ -11,14 +11,47 @@ body {
   background-size: cover;
   background-position: center;
   height: 200px;
+  border-radius: 5px;
 }
 
-#articleText {
-  font-family: bebas;
+#articleJudul {
+  font-family: Bebas Neue;
+  font-weight: lighter;
   margin: 0%;
   position: relative;
-  top: 20px;
+  top: 17%;
   text-align: center;
+}
+
+#articleIsi {
+  font-family: Afacad;
+  font-style: italic;
+  position: relative;
+  top: 10%;
+  text-align: center;
+}
+
+.buttonC {
+  position: relative;
+  top: 10%;
+  text-align: center;
+}
+
+/*Tampilan Button sebelum diklik*/
+button.button1 {
+  font-family: Afacad;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 3px;
+  color: black;
+  width: 90px;
+  background: transparent;
+}
+
+/*Tampilan Button yg ingin berubah setelah diklik*/
+.button1:hover {
+  background-color: #DAD3C9;
 }
 
 /*
