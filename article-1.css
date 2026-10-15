@@ -5,10 +5,6 @@ body {
 }
 */
 
-#articleAtas {
-  font-size: 20px;
-}
-
 .articleBg {
   margin: 1.5%;
   background-image: url('image/bgarticle.png'); 
@@ -25,10 +21,11 @@ body {
   text-align: center;
 }
 
+/*
 #articleBg2 {
   max-width: 100%;
   max-height: 100%;
   width: 96%;
   padding: 2%;
   position: center;
-}
+}*/
