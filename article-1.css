@@ -8,8 +8,8 @@ body {
 .aContainer {
   display: flex;
   flex-direction: column;
-  align-items: center; /*scr horizontal: center*/
-  justify-content: center; /* scr vertikal: center*/
+  align-items: center; /*scr vertikal: center*/
+  justify-content: center; /* scr horizontal: center*/
   padding: 9%;
   gap: 20px;
   border: 1px solid gray;
