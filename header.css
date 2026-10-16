@@ -5,18 +5,18 @@ body {
 .navbarcontainer {
   border: 1px solid gray;
   display: flex;
-  position: sticky;
   background-color: #DCD2C6;
   justify-content: space-between;
   align-items: center;
+  padding: 3%;
 }
 
 .nvlogo {
   border: 1px solid gray;
   font-family: "times new roman";
   font-weight: bold;
+  font-size: 120%;
   color: black;
-  margin: 3%;
 }
 
 .nvmenu {
@@ -27,6 +27,5 @@ body {
   font-weight: lighter;
   font-size: 70%;
   color: black;
-  margin: 3%;
   padding-top: 1px;
 }
