@@ -5,37 +5,37 @@ body {
 }
 */
 
-.articleBg {
-  margin: 1.5%;
+.aContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*scr horizontal: center*/
+  justify-content: center; /* scr vertikal: center*/
+  gap: 5px;
+  border: 1px solid gray;
+  margin: 1%;
+  padding: 5px;
   background-image: url('image/bgarticle.png'); 
   background-size: cover;
   background-position: center;
-  height: 200px;
   border-radius: 5px;
 }
 
-#articleJudul {
+.aJudul {
+  border: 1px solid gray;
   font-family: Bebas Neue;
   font-weight: lighter;
-  margin: 0%;
-  position: relative;
-  top: 17%;
-  text-align: center;
 }
 
-#articleIsi {
+.aIsi {
+  border: 1px solid gray;
   font-family: Afacad;
   font-style: italic;
-  position: relative;
-  top: 10%;
+  font-size: 90%;
   text-align: center;
 }
 
-/*Posisi button*/
 .buttonC {
-  position: relative;
-  top: 10%;
-  text-align: center;
+  border: 1px solid gray;
 }
 
 /*Tampilan Button sebelum diklik*/
@@ -46,7 +46,7 @@ button.button1 {
   border: 2px solid black;
   border-radius: 3px;
   color: black;
-  width: 90px;
+  width: 70px;
   background: transparent;
 }
 
