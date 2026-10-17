@@ -1,5 +1,13 @@
 .aContainer6 {
   border: 1px solid gray;
+  background-color: #E6E3DE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  gap: 15px;
 }
 
 .aJudul6 {
@@ -15,21 +23,46 @@
 
 .aContainer6-2 {
   border: 1px solid gray;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
 }
 
 .aImage6 {
-
+  display: flex;
 }
 
-.aIsiImage6 {
+#aIsiImage6 {
+  margin: 0%;
   border: 1px solid black;
+  border-radius: 10px;
   max-width: 100%;
   max-height: 100%;
-  width: 25%;
+  width: 260px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
 }
 
-.aLaperGang {
-  width: 25%;
+#aIsiImage6-2 {
+  margin: 0%;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  width: 260px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.aLaperGangTeks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  gap: 15px;
+  max-width: 100%;
+  width: 70%;
 }
 
 .aIsiJudul6 {
@@ -44,4 +77,6 @@
   margin: 0%;
   font-family: Afacad;
   font-size: 35%;
+  font-style: italic;
+  text-align: left;
 }
