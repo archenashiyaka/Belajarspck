@@ -55,11 +55,13 @@
 }
 
 .aLaperGangTeks {
+  margin: 0%;
+  border: 1px solid gray;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  justify-content: ;
+  padding-top: 3%;
+  padding-bottom: 3%;
   gap: 15px;
   max-width: 100%;
   width: 70%;
