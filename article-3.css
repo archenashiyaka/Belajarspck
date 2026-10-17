@@ -5,12 +5,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 15px;
   padding-left: 9%;
   padding-right: 9%;
   padding-top: 3%;
   padding-bottom: 3%;
-  gap: 15px;
-  
 }
 
 .aImage3 {
@@ -31,7 +30,7 @@
   border-radius: 10px;
   max-width: 100%;
   max-height: 100%;
-  width: 300px;
+  width: 200px;
   aspect-ratio: 1/1;
   object-fit: contain;
   object-position: top;
@@ -49,8 +48,8 @@
   margin: 0%;
   border: 1px solid gray;
   font-family: Afacad;
-  font-size: 70%;
   font-style: italic;
+  font-size: 70%;
 }
 
 button#aButton2 {

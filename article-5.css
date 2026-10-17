@@ -18,8 +18,7 @@
   background-image: url('image/proof.jpg');
   background-size: cover;
   background-position: left center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding: 5%;
   gap: 15px;
 }
 
