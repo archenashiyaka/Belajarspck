@@ -1,0 +1,21 @@
+.footerContainer {
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nvMenu2 {
+  border: 1px solid gray;
+  font-family: Bebas Neue;
+  font-size: 70%;
+  font-weight: lighter;
+}
+
+.nvLogo2 {
+  display: flex;
+  flex-direction: columm;
+  align-items: center;
+  border: 1px solid gray;
+  font-family: Times New Roman;
+  font-weight: bold;
+}
