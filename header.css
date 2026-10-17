@@ -2,7 +2,7 @@ body {
   background: #F2F2F2;
 }
 /* parent dari nvlogo dan nvmenu*/
-.navbarcontainer {
+.headerContainer {
   border: 1px solid gray;
   display: flex;
   background-color: #DCD2C6;
