@@ -18,8 +18,8 @@
 /* child-2 */
 .nvLogo2 {
   display: flex;
-  flex-direction: columm;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   border: 1px solid gray;
   font-family: Times New Roman;
   font-weight: bold;
