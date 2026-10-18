@@ -1,3 +1,4 @@
+/* parent */
 .aContainer6 {
   border: 1px solid gray;
   background-color: #E6E3DE;
@@ -10,10 +11,7 @@
   gap: 15px;
 }
 
-.aJudul6 {
-  
-}
-
+/* child-1 lgsg */
 #aJudul6 {
   border: 1px solid gray;
   margin: 0%;
@@ -21,6 +19,8 @@
   font-weight: lighter;
 }
 
+/* child-2 */
+/* parent-2 */
 .aContainer6-2 {
   border: 1px solid gray;
   display: flex;
@@ -28,6 +28,7 @@
   gap: 15px;
 }
 
+/* child-2-1,3 */
 .aImage6 {
   display: flex;
 }
@@ -43,17 +44,8 @@
   aspect-ratio: 1/1;
 }
 
-#aIsiImage6-2 {
-  margin: 0%;
-  border: 1px solid black;
-  border-radius: 10px;
-  max-width: 100%;
-  max-height: 100%;
-  width: 260px;
-  object-fit: cover;
-  aspect-ratio: 1/1;
-}
-
+/* child-2-2 */
+/* parent-3 */
 .aLaperGangTeks {
   margin: 0%;
   border: 1px solid gray;
@@ -67,6 +59,7 @@
   width: 70%;
 }
 
+/* child-3-1 */
 .aIsiJudul6 {
   border: 1px solid gray;
   margin: 0%;
@@ -74,6 +67,7 @@
   font-weight: lighter;
 }
 
+/* child-3-2 */
 .aIsiText6 {
   border: 1px solid gray;
   margin: 0%;
@@ -81,4 +75,15 @@
   font-size: 35%;
   font-style: italic;
   text-align: left;
+}
+
+#aIsiImage6-2 {
+  margin: 0%;
+  border: 1px solid black;
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  width: 260px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
 }

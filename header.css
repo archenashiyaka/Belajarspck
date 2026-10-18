@@ -12,6 +12,7 @@ body {
   padding: 3%;
 }
 
+/* child */
 .nvlogo {
   border: 1px solid gray;
   font-family: "times new roman";
@@ -20,6 +21,7 @@ body {
   color: black;
 }
 
+/* child */
 .nvmenu {
   display: flex; /*membuat semua nav jadi horizontal*/
   gap: 5px;

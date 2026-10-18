@@ -1,4 +1,4 @@
-/* Artikel ke 2 */
+/* parent */
 .aContainer2 {
   border: 1px solid gray;
   display: flex;
@@ -9,6 +9,7 @@
   gap: 15px;
 }
 
+/* child */
 #aJudul2 {
   margin: 0%;
   border: 1px solid gray;
@@ -16,6 +17,7 @@
   font-weight: lighter;
 }
 
+/* child-2 */
 #aIsi2 {
   margin: 0%;
   border: 1px solid gray;

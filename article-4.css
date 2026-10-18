@@ -1,3 +1,4 @@
+/* Parent */
 .aContainer4 {
   border: 1px solid gray;
   padding: 3%;
@@ -9,6 +10,8 @@
   gap: 20px;
 }
 
+/* Child 1,2,3*/
+/* parent-2 */
 .aImageIsi4 {
   border: 1px solid gray;
   display: flex;
@@ -17,15 +20,7 @@
   gap: 3px;
 }
 
-.aIsi4 {
-  border: 1px solid gray;
-  margin: 0%;
-  font-family: Bebas Neue;
-  font-weight: lighter;
-}
-
-/* Child 1 */
-
+/* child-2-1 */
 #aImage4-1 {
   border: 1px solid black;
   border-radius: 10px;
@@ -37,7 +32,15 @@
   width: 100px;
 }
 
-/* Child 2 */
+/* child-2-2 */
+.aIsi4 {
+  border: 1px solid gray;
+  margin: 0%;
+  font-family: Bebas Neue;
+  font-weight: lighter;
+}
+
+/* child-2-1 */
 #aImage4-2 {
   border: 1px solid black;
   border-radius: 10px;
@@ -49,7 +52,7 @@
   width: 100px;
 }
 
-/* Child 3 */
+/* child-2-1 */
 #aImage4-3 {
   border: 1px solid black;
   border-radius: 10px;
