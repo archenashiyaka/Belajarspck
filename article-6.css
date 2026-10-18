@@ -8,12 +8,13 @@
   padding: 3%;
   padding-left: 3%;
   padding-right: 3%;
-  gap: 15px;
+  gap: 7px;
 }
 
 /* child-1 lgsg */
 #aJudul6 {
   border: 1px solid gray;
+  padding-top: 2px;
   margin: 0%;
   font-family: Bebas Neue;
   font-weight: lighter;
@@ -54,7 +55,7 @@
   justify-content: ;
   padding-top: 3%;
   padding-bottom: 3%;
-  gap: 15px;
+  gap: 7px;
   max-width: 100%;
   width: 70%;
 }
@@ -62,6 +63,7 @@
 /* child-3-1 */
 .aIsiJudul6 {
   border: 1px solid gray;
+  padding-top: 2px;
   margin: 0%;
   font-family: Bebas Neue;
   font-weight: lighter;

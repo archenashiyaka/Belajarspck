@@ -18,7 +18,8 @@
   background-size: cover;
   background-position: left center;
   padding: 5%;
-  gap: 15px;
+  padding-top: 4%;
+  gap: 7px;
 }
 
 /* child-2-1 */
@@ -27,7 +28,7 @@
   color: #F2F2F2;
   font-family: Bebas Neue;
   font-weight: lighter;
-  padding-top: 1%;
+  padding-top: 2px;
   margin: 0%;
 }
 
