@@ -4,7 +4,7 @@ body {
 }
 /* parent dari nvlogo dan nvmenu*/
 .headerContainer {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   display: flex;
   background-color: #DCD2C6;
   justify-content: space-between;
@@ -14,7 +14,7 @@ body {
 
 /* child */
 .nvlogo {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   font-family: "times new roman";
   font-weight: bold;
   font-size: 100%;
@@ -25,7 +25,7 @@ body {
 .nvmenu {
   display: flex; /*membuat semua nav jadi horizontal*/
   gap: 5px;
-  border: 1px solid gray;
+  border: 1px solid transparent;
   font-family: Bebas Neue;
   font-weight: lighter;
   font-size: 70%;
