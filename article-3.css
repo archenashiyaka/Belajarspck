@@ -1,5 +1,5 @@
 .aContainer3 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   background-color: #E6E3DE;
   display: flex;
   justify-content: center;
@@ -23,27 +23,30 @@
 }
 
 .aJudulIsi3 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 7px;
-  padding-top: 3%;
+  gap: 3px;
+  padding-top: 1%;
   padding-bottom: 3%;
 }
 
 #aJudul3 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   margin: 0%;
   font-family: Bebas Neue;
   font-weight: lighter;
+  padding-top: 2px;
 }
 
 #aIsi3 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   margin: 0%;
   font-family: Afacad;
   font-size: 70%;
+  font-style: italic;
+  padding-bottom: 2%;
 }
 
 /* child-3-3 */
