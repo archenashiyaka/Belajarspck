@@ -41,7 +41,7 @@
   border-radius: 10px;
   max-width: 100%;
   max-height: 100%;
-  width: 260px;
+  width: 200px;
   object-fit: cover;
   aspect-ratio: 1/1;
 }
@@ -50,19 +50,19 @@
 /* parent-3 */
 .aLaperGangTeks {
   margin: 0%;
-  border: 1px solid gray;
+  border: 1px solid transparent;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding-top: 3%;
   padding-bottom: 3%;
   gap: 7px;
   max-width: 100%;
-  width: 80%;
 }
 
 /* child-3-1 */
 .aIsiJudul6 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   padding-top: 2px;
   margin: 0%;
   font-family: Bebas Neue;
@@ -71,12 +71,12 @@
 
 /* child-3-2 */
 .aIsiText6 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   margin: 0%;
   font-family: Afacad;
   font-size: 70%;
   font-style: italic;
-  text-align: left;
+  text-align: justify;
 }
 
 #aIsiImage6-2 {
@@ -85,7 +85,7 @@
   border-radius: 10px;
   max-width: 100%;
   max-height: 100%;
-  width: 260px;
+  width: 200px;
   object-fit: cover;
   aspect-ratio: 1/1;
 }
