@@ -19,6 +19,7 @@ body {
   font-weight: bold;
   font-size: 100%;
   color: black;
+  padding-top: 1px;
 }
 
 /* child */
@@ -30,5 +31,5 @@ body {
   font-weight: lighter;
   font-size: 70%;
   color: black;
-  padding-top: 1px;
+  padding-top: 2px;
 }

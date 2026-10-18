@@ -1,6 +1,6 @@
 /* parent */
 .aContainer6 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   background-color: #E6E3DE;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
 
 /* child-1 lgsg */
 #aJudul6 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   padding-top: 2px;
   margin: 0%;
   font-family: Bebas Neue;
@@ -23,7 +23,7 @@
 /* child-2 */
 /* parent-2 */
 .aContainer6-2 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   display: flex;
   justify-content: space-evenly;
   gap: 15px;
@@ -49,7 +49,7 @@
 /* parent-3 */
 .aLaperGangTeks {
   margin: 0%;
-  border: 1px solid gray;
+  border: 1px solid transparent;
   display: flex;
   flex-direction: column;
   justify-content: ;
@@ -62,7 +62,7 @@
 
 /* child-3-1 */
 .aIsiJudul6 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   padding-top: 2px;
   margin: 0%;
   font-family: Bebas Neue;
@@ -71,7 +71,7 @@
 
 /* child-3-2 */
 .aIsiText6 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   margin: 0%;
   font-family: Afacad;
   font-size: 35%;
