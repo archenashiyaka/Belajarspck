@@ -39,18 +39,30 @@
 }
 
 /*Tampilan Button sebelum diklik*/
-button.button1 {
+.button1 {
   font-family: Afacad;
   font-size: 10px;
   font-weight: bold;
   border: 1px solid black;
   border-radius: 1px;
   color: black;
-  width: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
   background: transparent;
 }
 
-/*Tampilan Button yg ingin berubah setelah diklik*/
+/* ketika crusor di link */
 .button1:hover {
+  background-color: #F2F2F2;
+}
+
+/* ketika link di klik */
+.button1:active {
   background-color: lightgray;
+}
+
+/*link: sblm diklik, visited: stlh pernah diklik*/
+.button1:link, .button1:visited {
+  text-decoration: none;
+  color: #000000;
 }
