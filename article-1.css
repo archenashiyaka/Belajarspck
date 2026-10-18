@@ -5,7 +5,7 @@
   align-items: center; /*scr horizontal: center*/
   justify-content: center; /* scr vertikal: center*/
   padding: 9%;
-  gap: 15px;
+  gap: 20px;
   border: 1px solid transparent;
   background-image: url('image/bgarticle.png'); 
   background-size: 100%;
@@ -20,7 +20,7 @@
   border: 1px solid transparent;
   font-family: Bebas Neue;
   font-weight: lighter;
-  padding: 0%;
+  padding-top: 1%;
   margin: 0%;
 }
 
@@ -36,6 +36,10 @@
 }
 
 /* child-3 */
+.buttonC {
+  display: flex;
+  border: 1px solid gray;
+}
 
 /*Tampilan Button sebelum diklik*/
 button.button1 {

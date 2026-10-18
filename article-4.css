@@ -1,6 +1,6 @@
 /* Parent */
 .aContainer4 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   padding: 3%;
   padding-left: 10%;
   padding-right: 10%;
@@ -13,7 +13,7 @@
 /* Child 1,2,3*/
 /* parent-2 */
 .aImageIsi4 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,7 +34,8 @@
 
 /* child-2-2 */
 .aIsi4 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
+  padding-top: 1%;
   margin: 0%;
   font-family: Bebas Neue;
   font-weight: lighter;

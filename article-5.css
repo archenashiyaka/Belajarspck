@@ -1,6 +1,6 @@
 /* parent */
 .aContainer5 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   background-color: #E6E3DE;
   padding: 3%;
 }
@@ -23,16 +23,17 @@
 
 /* child-2-1 */
 #aJudul5 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   color: #F2F2F2;
   font-family: Bebas Neue;
   font-weight: lighter;
+  padding-top: 1%;
   margin: 0%;
 }
 
 /* child-2-2 */
 #aIsi5 {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   color: #F2F2F2;
   font-family: Afacad;
   font-size: 70%;
