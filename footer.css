@@ -3,6 +3,7 @@
   border: 1px solid transparent;
   display: flex;
   justify-content: space-between;
+  margin-top: 1%;
   padding: 3%;
   background-color: #DCD2C6;
 }
