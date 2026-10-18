@@ -5,8 +5,8 @@
   align-items: center; /*scr horizontal: center*/
   justify-content: center; /* scr vertikal: center*/
   padding: 9%;
-  gap: 20px;
-  border: 1px solid gray;
+  gap: 15px;
+  border: 1px solid transparent;
   background-image: url('image/bgarticle.png'); 
   background-size: 100%;
   background-position-x: center;
@@ -17,7 +17,7 @@
 /* child-1 lgsg*/
 /*manggil elemen lgsg(id) untuk didesain*/
 #aJudul {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   font-family: Bebas Neue;
   font-weight: lighter;
   padding: 0%;
@@ -27,7 +27,7 @@
 /* child-2 lgsg */
 /*manggil elemen lsgsg(id) untuk didesain*/
 #aIsi {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   font-family: Afacad;
   font-style: italic;
   font-size: 70%;
@@ -36,10 +36,6 @@
 }
 
 /* child-3 */
-.buttonC {
-  display: flex;
-  border: 1px solid gray;
-}
 
 /*Tampilan Button sebelum diklik*/
 button.button1 {
