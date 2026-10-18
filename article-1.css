@@ -5,7 +5,7 @@
   align-items: center; /*scr horizontal: center*/
   justify-content: center; /* scr vertikal: center*/
   padding: 9%;
-  gap: 20px;
+  gap: 7px;
   border: 1px solid transparent;
   background-image: url('image/bgarticle.png'); 
   background-size: 100%;
@@ -32,13 +32,8 @@
   font-style: italic;
   font-size: 70%;
   text-align: center;
+  padding-bottom: 2%;
   margin: 0%;
-}
-
-/* child-3 */
-.buttonC {
-  display: flex;
-  border: 1px solid gray;
 }
 
 /*Tampilan Button sebelum diklik*/
