@@ -1,0 +1,29 @@
+/* parent */
+.aContainer2 {
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 9%;
+  gap: 7px;
+}
+
+/* child */
+#aJudul2 {
+  margin: 0%;
+  padding-top: 2px;
+  border: 1px solid transparent;
+  font-family: Bebas Neue;
+  font-weight: lighter;
+}
+
+/* child-2 */
+#aIsi2 {
+  margin: 0%;
+  border: 1px solid transparent;
+  font-family: Afacad;
+  font-style: italic;
+  font-size: 70%;
+  text-align: center;
+}
