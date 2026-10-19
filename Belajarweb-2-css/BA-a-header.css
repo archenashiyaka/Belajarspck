@@ -39,7 +39,7 @@
   padding-right: 2vw;
   margin: 0%;
   font-family: 'Barlow Semi Condensed';
-  font-size: 1vw;
+  font-size: clamp(8px, 1.5vw, 100px);
   background-color: white;
 }
 
