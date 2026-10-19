@@ -1,15 +1,22 @@
 .containerArticleImage {
   display: flex;
   padding: 5vw;
+  padding-left: 8.5vw;
   border: 1px solid gray;
   gap: 5vw;
 }
 
+/*bukan container*/
 .imageBrands {
   display: flex;
-  
-  border: 1px solid gray;
+  border: 1px solid transparent;
   max-width: 100%;
   max-height: 100%;
   width: 15vw;
+}
+
+#imageBrand5star {
+  object-fit: cover;
+  object-position: -2.5vw 0;
+  /*transform: scale(1.3);*/
 }
