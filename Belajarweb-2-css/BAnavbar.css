@@ -8,7 +8,7 @@
 .navMenu-1 {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 1vw;
   border: 1px solid gray;
   font-family: 'Barlow Semi Condensed';
   font-size: 1vw;
@@ -16,17 +16,17 @@
 
 .navMenu-1button {
   border: 1px solid transparent;
-  border-radius: 13px;
-  padding: 2px;
+  border-radius: 4vw;
+  padding: 1vw;
   text-align: center;
-  width: 10vw;
+  width: 8vw;
   background-color: white;
 }
 
 .navMenu-2 {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 1vw;
   border: 1px solid gray;
   font-family: 'Barlow Semi Condensed';
   font-size: 1vw;
