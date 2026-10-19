@@ -12,7 +12,7 @@
   gap: 1vw;
   border: 1px solid gray;
   font-family: 'Barlow Semi Condensed';
-  font-size: 1vw;
+  font-size: clamp(8px, 1.5vw, 100px);
 }
 
 .navMenu-1button {
@@ -31,5 +31,5 @@
   gap: 1vw;
   border: 1px solid gray;
   font-family: 'Barlow Semi Condensed';
-  font-size: 1vw;
+  font-size: clamp(8px, 1.5vw, 100px);
 }
