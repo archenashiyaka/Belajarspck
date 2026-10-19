@@ -1,4 +1,14 @@
+.containerAtas {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 0 0 10vw 10vw;
+  background-color: white;
+}
+
 .containerHeader {
+  display: flex;
+  flex-direction: column;
   background-color: #F1F0EE;
   border: 1px solid transparent;
   border-radius: 0px 0px 10vw 10vw;
