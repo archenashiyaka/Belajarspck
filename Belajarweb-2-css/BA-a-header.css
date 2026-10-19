@@ -10,14 +10,10 @@
   flex-direction: column;
   align-items: center;
   gap: 1vw;
-  overflow: hidden;
-}
-
-.hProfilePhoto {
-  display: flex;
 }
 
 #hProfilePhoto {
+  display: flex;
   border: 1px solid white;
   border-radius: 100vw;
   max-width: 100%;
