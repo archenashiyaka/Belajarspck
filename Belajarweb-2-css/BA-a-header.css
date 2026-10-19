@@ -48,7 +48,7 @@
   border: 1px solid gray;
   font-family: 'Fjalla One';
   font-weight: lighter;
-  font-size: clamp(20px, 5vw, 100px);
+  font-size: clamp(30px, 5vw, 100px);
   text-align: center;
   width: fit-content;
   

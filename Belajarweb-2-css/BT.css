@@ -1,0 +1,44 @@
+.containerTengah {
+  border: 1px solid gray;
+}
+
+/*1*/
+#tengahJudul {
+  border: 1px solid gray;
+  font-family: 'Fjalla One';
+  font-weight: lighter;
+  font-size: clamp(15px, 3vw, 50px);
+  text-align: center;
+  width: fit-content;
+  
+  background: linear-gradient(100deg, black, gray);
+  background-clip: text;
+  color: transparent;
+  
+  margin: 0%;
+}
+
+/*2*/
+.tengahButton {
+  display: flex;
+  background-image: url('../image/line.png');
+  background-repeat: no-repeat;
+  background-size: 100% 50vw;
+  width: 90%;
+  background-position: center;
+}
+
+
+#tengahButton {
+  border: 1px solid gray;
+  border-radius: 4vw;
+  font-size: clamp(8px, 1.5vw, 100px);
+  font-family: 'Barlow Semi Condensed';
+  padding: 1vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  rotate: -10deg;
+  background-color: white;
+  width: fit-content;
+  margin: 0%;
+}

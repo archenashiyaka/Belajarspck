@@ -5,6 +5,7 @@
   padding: 3vw;
 }
 
+/*1*/
 .navMenu-1 {
   display: flex;
   align-items: center;
@@ -23,6 +24,7 @@
   background-color: white;
 }
 
+/*2*/
 .navMenu-2 {
   display: flex;
   align-items: center;
