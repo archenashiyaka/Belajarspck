@@ -2,14 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid gray;
+  border: 1px solid transparent;
   padding: 5vw;
   gap: 3vw;
 }
 
 /*1*/
 #tengahJudul {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   font-family: 'Fjalla One';
   font-weight: lighter;
   font-size: clamp(15px, 3vw, 50px);
@@ -49,10 +49,10 @@
   margin: 0%;
 }
 
-/*2-Container*/
+/*3*/ /*Container-2*/
 .tengahArticle {
   display: flex;
-  border: 1px solid gray;
+  border: 1px solid transparent;
   gap: 3vw;
 }
 
