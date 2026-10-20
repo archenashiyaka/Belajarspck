@@ -60,7 +60,7 @@
 .tengahArticleItems {
   display: flex;
   flex-direction: column;
-  border: 1px solid gray;
+  border: 1px solid transparent;
   gap: 1vw;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .tengahArticleIsi {
-  text-align: left;
+  text-align: justify;
   border: 1px solid transparent;
   font-family: 'Barlow Semi Condensed';
   font-size: clamp(1px, 1.5vw, 100px);
