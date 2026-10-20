@@ -8,7 +8,7 @@
   <!-- Font -->
   <link rel="stylesheet" href="font/font.css">
   <!-- CSS -->
-  <link rel="stylesheet" href="webSignIn-css/web-sign-in.css" type="text/css" />
+  <link rel="stylesheet" href="webSignIn-css/web-sign-in-header.css" type="text/css" />
 </head>
 
 <body>
@@ -20,9 +20,15 @@
     </div>
     
     <div>
-    <form name="SignInEmail" action="web-login.html" accept-charset="utf-8">
-      <label for="email">Email<br></label>
-      <input type="text" name="email" id="email"><br>
+    <form class="SignInEPContainer" name="SignInEmail" action="" metaccept-charset="utf-8">
+      <label for="email" class="SignInEP">Email</label>
+      <br>
+      <input type="text" name="email" id="email">
+      <br>
+      <label for="password" class="SignInEP">Password</label>
+      <br>
+      <input type="text" name="password" id="password">
+      <br>
       <button type="submit">Sign in</button>
     </form>
     </div>
