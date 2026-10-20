@@ -3,7 +3,7 @@
   background-color: white;
 }
 
-/*1*/
+/*1 Container*/
 .bawahArticle {
   border: 1px solid gray;
 }
@@ -23,4 +23,21 @@
   object-fit: cover;
   object-position: 0 1px;
   background: linear-gradient(180deg, #D0D0D0, transparent);
+}
+
+/*1-2*/
+.bawahTitle {
+  
+}
+
+#bawahTitle {
+  border: 1px solid gray;
+  font-family: 'Fjalla One';
+  font-weight: lighter;
+  font-size: clamp(30px, 5vw, 100px);
+  width: fit-content;
+  background: linear-gradient(100deg, black, gray);
+  background-clip: text;
+  color: transparent;
+  margin: 0%;
 }
