@@ -11,7 +11,7 @@ body {
 }
 
 /*Container-1*/
-.SignInHeader {
+.signInHeader {
   display: flex;
   flex-direction: column;
   gap: 1vw;
