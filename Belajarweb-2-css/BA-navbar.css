@@ -1,8 +1,9 @@
 .navBar {
   display: flex;
   justify-content: space-between;
-  border: 1px solid gray;
+  border: 1px solid transparent;
   padding: 3vw;
+  margin: 0%;
 }
 
 /*1*/
@@ -10,7 +11,7 @@
   display: flex;
   align-items: center;
   gap: 1vw;
-  border: 1px solid gray;
+  border: 1px solid transparent;
   font-family: 'Barlow Semi Condensed';
   font-size: clamp(8px, 1.5vw, 100px);
 }
@@ -29,7 +30,7 @@
   display: flex;
   align-items: center;
   gap: 1vw;
-  border: 1px solid gray;
+  border: 1px solid transparent;
   font-family: 'Barlow Semi Condensed';
   font-size: clamp(8px, 1.5vw, 100px);
 }
