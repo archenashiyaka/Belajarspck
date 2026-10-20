@@ -3,16 +3,41 @@ body {
   margin: 0%;
 }
 
+/*main Container*/
 .mainLoginContainer {
   border: 1px solid gray;
   background-color: white;
   margin: 50% 10% 50% 10%;
 }
 
-#loginHeaderLogo {
+/*Container-1*/
+.loginHeader {
+  border: 1px solid gray;
+}
+
+/*1-1*/
+#headerLogo {
   display: flex;
   border: 1px solid gray;
   max-width: 100%;
   max-height: 100%;
-  width: 5vw;
+  width: 4vw;
+}
+
+/*1-2*/
+#headerTitle {
+  border: 1px solid gray;
+  font-family: 'CPD';
+  font-weight: lighter;
+  font-size: 3vw;
+  margin: 0%;
+}
+
+/*1-3*/
+#headerText {
+  border: 1px solid gray;
+  font-family: 'CPL';
+  font-weight: lighter;
+  font-size: clamp(1px, 1.5vw, 100px);
+  margin: 0%;
 }

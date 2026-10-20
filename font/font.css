@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'CPD';
+  src: url('Cocogoose-Pro-Darkmode.woff2') format(woff2);
+}
+
+@font-face {
+  font-family: 'CPS';
+  src: url('Cocogoose-Pro-Semilight.woff2') format(woff2);
+}
+
+@font-face {
+  font-family: 'CPL';
+  src: url('Cocogoose-Pro-Light.woff2') format(woff2);
+}
