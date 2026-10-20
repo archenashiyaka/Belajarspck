@@ -86,7 +86,7 @@
   /* real objectnya di bg image */
   display: flex;
   justify-content: center;
-  border: 1px solid transparent;
+  border: 1px solid gray;
   background-image: url(../image/line.png);
   background-size: 90% 50vw;
   background-position: center;
