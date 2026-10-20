@@ -59,7 +59,6 @@
 }
 
 .bawahButton-1-2 {
-  border: 1px solid #242424;
   border-radius: 4vw;
   font-family: 'Barlow Semi Condensed';
   font-size: 1.25vw;
@@ -71,15 +70,13 @@
 }
 
 #bawahButton-1 {
+  border: 1px solid #242424;
   color: white;
   background-color: #242424;
-  /*padding-left: 2.5vw;
-  padding-right: 2.5vw;*/
 }
 
 #bawahButton-2 {
+  border: 1px solid black;
   color: black;
   background-color: white;
-  /*padding-left: 2.5vw;
-  padding-right: 2.5vw;*/
 }
