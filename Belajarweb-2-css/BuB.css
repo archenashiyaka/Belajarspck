@@ -88,9 +88,12 @@
   justify-content: center;
   border: 1px solid gray;
   background-image: url(../image/line.png);
-  background-size: 90% 50vw;
+  background-size: 100% 50vw;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 5vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 #bawahLine {
@@ -99,4 +102,27 @@
   width: 90%;
   height: 2.5vw;
   opacity: 0%; /*hilang semua karena 0*/
+}
+
+/*3*/
+.bawahFooter {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 3vw;
+  padding-top: 0%;
+}
+
+.bawahFooterText-1 {
+  border: 1px solid gray;
+  font-family: 'Barlow Semi Condensed';
+  font-size: clamp(8px, 1.5vw, 100px);
+}
+
+.bawahFooterText-2 {
+  display: flex;
+  gap: 1vw;
+  border: 1px solid gray;
+  font-family: 'Barlow Semi Condensed';
+  font-size: clamp(8px, 1.5vw, 100px);
 }
