@@ -82,6 +82,7 @@
 }
 
 .tengahArticleIsi {
+  text-align: left;
   border: 1px solid transparent;
   font-family: 'Barlow Semi Condensed';
   font-size: clamp(1px, 1.5vw, 100px);
