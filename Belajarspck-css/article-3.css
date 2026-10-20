@@ -51,15 +51,25 @@
 }
 
 /* child-3-3 */
-button#aButton2 {
+#aButton2 {
   border: 1px solid black;
   font-family: Afacad;
   font-weight: bold;
   font-size: 10px;
+  text-align: center;
   background-color: transparent;
   width: 80px;
 }
 
 #aButton2:hover {
+  background-color: #F2F2F2;
+}
+
+#aButton2:active {
   background-color: lightgray;
+}
+
+#aButton2:link, #aButton2:visited {
+  text-decoration: none;
+  color: black;
 }
