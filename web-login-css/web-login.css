@@ -12,6 +12,9 @@ body {
 
 /*Container-1*/
 .loginHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
   border: 1px solid gray;
 }
 
