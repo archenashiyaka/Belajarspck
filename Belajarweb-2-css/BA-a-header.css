@@ -9,7 +9,7 @@
 
 /*1*/
 .hProfile {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   width: fit-content;
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@
 
 /*2*/
 #hTitle {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   font-family: 'Fjalla One';
   font-weight: lighter;
   font-size: clamp(30px, 5vw, 100px);
@@ -63,7 +63,7 @@
 
 /*3*/
 #hButton {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   border-radius: 4vw;
   font-family: 'Barlow Semi Condensed';
   font-size: clamp(10px, 2vw, 100px);
