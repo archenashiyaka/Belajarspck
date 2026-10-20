@@ -1,5 +1,10 @@
 .containerTengah {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid gray;
+  padding: 5vw;
+  gap: 3vw;
 }
 
 /*1*/
@@ -21,6 +26,7 @@
 /*2*/
 .tengahButton {
   display: flex;
+  justify-content: center;
   background-image: url('../image/line.png');
   background-repeat: no-repeat;
   background-size: 100% 50vw;
@@ -30,7 +36,7 @@
 
 
 #tengahButton {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   border-radius: 4vw;
   font-size: clamp(8px, 1.5vw, 100px);
   font-family: 'Barlow Semi Condensed';
@@ -45,41 +51,40 @@
 
 /*2-Container*/
 .tengahArticle {
+  display: flex;
   border: 1px solid gray;
+  gap: 3vw;
 }
 
 /*2-1*/
 .tengahArticleItems {
+  display: flex;
+  flex-direction: column;
   border: 1px solid gray;
+  gap: 1vw;
 }
 
 .tengahArticleImage {
   display: flex;
-  border: 1px solid gray;
+  border: 1px solid transparent;
   max-width: 100%;
   max-height: 100%;
   width: clamp(14px, 3vw, 100px);
 }
 
 .tengahArticleJudul {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   font-family: 'Fjalla One';
   font-weight: lighter;
-  font-size: clamp(10px, 2vw, 100px);
+  font-size: clamp(8px, 2vw, 100px);
   width: fit-content;
   margin: 0%;
 }
 
 .tengahArticleIsi {
-  border: 1px solid gray;
+  border: 1px solid transparent;
   font-family: 'Barlow Semi Condensed';
   font-size: clamp(1px, 1.5vw, 100px);
   width: fit-content;
   margin: 0%;
-}
-
-@media (max-width: 400px) {
-  .tengahArticleIsi {
-    font-size: 1px;
-  }
 }
