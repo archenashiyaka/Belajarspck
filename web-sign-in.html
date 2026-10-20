@@ -8,17 +8,22 @@
   <!-- Font -->
   <link rel="stylesheet" href="font/font.css">
   <!-- CSS -->
-  <link rel="stylesheet" href="web-login-css/web-login.css" type="text/css" />
+  <link rel="stylesheet" href="webSignIn-css/web-sign-in.css" type="text/css" />
 </head>
 
 <body>
-  <div class="mainLoginContainer">
-    <div class="loginHeader">
+  <div class="mainSignInContainer">
+    <div class="SignInHeader">
       <img id="headerLogo"src="image/logo-archena.png" alt="Login" />
       <h3 id="headerTitle">Sign in</h3>
       <p id="headerText">Enter your email and password below to sign in</p>
     </div>
     
+    <form name="SignInEmail" action="web-login.html" accept-charset="utf-8">
+      <label for="email">Email<br></label>
+      <input type="text" name="email" id="email"><br>
+      <button type="submit">Sign in</button>
+    </form>
   </div>
 </body>
 

@@ -4,14 +4,14 @@ body {
 }
 
 /*main Container*/
-.mainLoginContainer {
+.mainSignInContainer {
   border: 1px solid gray;
   background-color: white;
   margin: 50% 10% 50% 10%;
 }
 
 /*Container-1*/
-.loginHeader {
+.SignInHeader {
   display: flex;
   flex-direction: column;
   gap: 1vw;
