@@ -43,14 +43,14 @@
   margin: 0%;
 }
 
-/*2*/
+/*2-Container*/
 .tengahArticle {
   border: 1px solid gray;
 }
 
 /*2-1*/
 .tengahArticleItems {
-  border:1px solid gray;
+  border: 1px solid gray;
 }
 
 .tengahArticleImage {
