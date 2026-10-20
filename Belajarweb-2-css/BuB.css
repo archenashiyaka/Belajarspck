@@ -5,7 +5,12 @@
 
 /*1 Container*/
 .bawahArticle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: 1px solid gray;
+  padding: 5vw;
+  gap: 3vw;
 }
 
 /*1-1*/
@@ -35,6 +40,7 @@
   font-family: 'Fjalla One';
   font-weight: lighter;
   font-size: clamp(30px, 5vw, 100px);
+  text-align: center;
   width: fit-content;
   background: linear-gradient(100deg, black, gray);
   background-clip: text;
@@ -43,35 +49,34 @@
 }
 
 /*1-3*/
-.bawahButton {
-  
+.bawahButtons {
+  border: 1px solid gray;
+  display: flex;
+  gap: 1vw;
 }
 
-#bawahButton-1 {
+.bawahButton-1-2 {
   border: 1px solid #242424;
   border-radius: 4vw;
   font-family: 'Barlow Semi Condensed';
-  font-size: 1.5vw;
-  color: white;
+  font-size: 1.25vw;
   text-align: center;
-  width: clamp(36px, 7vw, 100px);
+  width: clamp(36px, 6vw, 100px);
   background-color: #242424;
-  padding: 2vw;
-  /*padding-left: 2.5vw;
-  padding-right: 2.5vw;*/
+  padding: 1.5vw;
   margin: 0%;
 }
 
-#bawahButton-2 {
-  border: 1px solid gray;
-  border-radius: 4vw;
-  font-family: 'Barlow Semi Condensed';
-  font-size: 1.5vw;
-  text-align: center;
-  width: clamp(36px, 7vw, 100px);
-  background-color: white;
-  padding: 2vw;
+#bawahButton-1 {
+  color: white;
+  background-color: #242424;
   /*padding-left: 2.5vw;
   padding-right: 2.5vw;*/
-  margin: 0%;
+}
+
+#bawahButton-2 {
+  color: black;
+  background-color: white;
+  /*padding-left: 2.5vw;
+  padding-right: 2.5vw;*/
 }
