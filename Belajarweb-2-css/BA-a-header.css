@@ -69,7 +69,6 @@
   font-size: clamp(10px, 2vw, 100px);
   color: white;
   padding: 2vw;
-  padding-bottom: 2.5vw;
   padding-left: 3vw;
   padding-right: 3vw;
   width: fit-content;
