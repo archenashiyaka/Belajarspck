@@ -80,3 +80,23 @@
   color: black;
   background-color: white;
 }
+
+/*2*/
+.bawahLine {
+  /* real objectnya di bg image */
+  display: flex;
+  justify-content: center;
+  border: 1px solid transparent;
+  background-image: url(../image/line.png);
+  background-size: 90% 50vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#bawahLine {
+  /* sebagai object kosongan */
+  border: 1px solid gray;
+  width: 90%;
+  height: 2.5vw;
+  opacity: 0%; /*hilang semua karena 0*/
+}
