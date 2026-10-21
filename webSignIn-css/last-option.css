@@ -1,5 +1,9 @@
 .lastOptionContainer {
+  display: flex;
+  justify-content: center;
   border: 1px solid transparent;
+  padding: 2vw;
+  gap: 2vw;
 }
 
 #lastOptionText {
@@ -10,25 +14,13 @@
 }
 
 #lastOption {
+  display: block;
   border: 1px solid transparent;
   font-family: 'Gotham Medium';
   font-weight: lighter;
   font-size: clamp(12px, 2vw, 100px);
+  color: black;
+  text-decoration: underline dotted;
   width: fit-content;
   margin: 0%;
-}
-
-#lastOption:link {
-  color: black;
-  text-decoration: none;
-}
-
-#lastOption:visited {
-  color: gray;
-  text-decoration: underline;
-}
-
-#lastOption:hover {
-  color: black;
-  text-decoration: none;
 }
