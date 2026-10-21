@@ -12,3 +12,18 @@
   font-family: 'CPL';
   src: url('Cocogoose-Pro-Light.woff2') format(woff2);
 }
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('Gotham-Bold.woff2') format(woff2);
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url('Gotham-Medium.woff2') format(woff2);
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('Gotham-Book.woff2') format(woff2);
+}
