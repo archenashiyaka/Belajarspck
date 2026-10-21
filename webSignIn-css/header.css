@@ -32,7 +32,7 @@ body {
   border: 1px solid gray;
   font-family: 'CPD';
   font-weight: lighter;
-  font-size: 3vw;
+  font-size: clamp(18px, 3vw, 100px);
   margin: 0%;
 }
 
