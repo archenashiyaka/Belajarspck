@@ -2,7 +2,7 @@
   border: 1px solid transparent;
 }
 
-.optionApple {
+.optionSignIn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +11,7 @@
   gap: 1.5vw;
 }
 
-.optionApple:link, .optionApple:visited {
+.optionSignIn:link, .optionSignIn:visited {
   color: black;
   text-decoration: none;
 }
