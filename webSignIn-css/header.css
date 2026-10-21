@@ -10,6 +10,7 @@ body {
   background-color: white;
   box-sizing: border-box;
   box-shadow: 0 0 15px 5px lightgray;
+  padding: 4vw;
   margin: 50% 10% 50% 10%;
 }
 
@@ -18,8 +19,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4vw;
   gap: 1.5vw;
+  padding-bottom: 4vw;
   border: 1px solid gray;
 }
 
