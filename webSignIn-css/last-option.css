@@ -1,9 +1,34 @@
 .lastOptionContainer {
-  border: 1px solid gray;
+  border: 1px solid transparent;
 }
 
 #lastOptionText {
   border: 1px solid gray;
   font-family: 'Gotham Book';
-  font-size: ;
+  font-size: clamp(11.5px, 2vw, 100px);
+  margin: 0%;
+}
+
+#lastOption {
+  border: 1px solid transparent;
+  font-family: 'Gotham Medium';
+  font-weight: lighter;
+  font-size: clamp(12px, 2vw, 100px);
+  width: fit-content;
+  margin: 0%;
+}
+
+#lastOption:link {
+  color: black;
+  text-decoration: none;
+}
+
+#lastOption:visited {
+  color: gray;
+  text-decoration: underline;
+}
+
+#lastOption:hover {
+  color: black;
+  text-decoration: none;
 }
