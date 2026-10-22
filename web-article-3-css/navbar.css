@@ -5,7 +5,6 @@
   grid-template-rows: auto;
   grid-template-areas:
   "navnone nav-1 nav-2 nav-3 nav-4";
-  grid-gap: 1vw;
   border: 1px solid gray;
   background-color: #5865F2;
   width: 100%;
