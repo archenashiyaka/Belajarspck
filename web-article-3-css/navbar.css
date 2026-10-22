@@ -1,10 +1,11 @@
 .navbarContainer {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: 
-  auto 12.5vw 12.5vw 12.5vw 12.5vw;
+  auto max-content max-content max-content max-content;
   grid-template-rows: auto;
   grid-template-areas:
   "navnone nav-1 nav-2 nav-3 nav-4";
+  grid-gap: 1vw;
   border: 1px solid gray;
   background-color: #5865F2;
   width: 100%;
@@ -12,7 +13,6 @@
 
 .navigation {
   display: flex;
-  justify-content: center;
   align-items: center;
   border: 1px solid lightgray;
   color: white;
@@ -21,7 +21,7 @@
   font-size: 3vw;
   margin: 0%;
   margin: 1vw;
-  padding-top: 1.5px;
+  padding: 1vw;
 }
 
 #nav-1 {
