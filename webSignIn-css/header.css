@@ -1,6 +1,12 @@
 body {
+  border: 1px solid gray;
   background-color: #F2F2F2;
   margin: 0%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*main Container*/
@@ -11,7 +17,7 @@ body {
   box-sizing: border-box;
   box-shadow: 0 0 10vw 5vw lightgray;
   padding: 4vw;
-  margin: 50% 10% 50% 10%;
+  /*margin: 50% 10% 50% 10%;*/
 }
 
 /*Container-1*/
