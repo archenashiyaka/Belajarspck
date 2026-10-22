@@ -35,7 +35,7 @@
 
 #headerDownloadButton {
   grid: download;
-  border: 0.28vw solid gray;
+  border: 0.28vw solid #5865F2;
   border-radius: 1.5vw;
   font-family: 'Bebas Neue';
   font-weight: lighter;

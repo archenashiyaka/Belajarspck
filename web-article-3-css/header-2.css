@@ -1,0 +1,54 @@
+.headerContainer-2 {
+  display: inline-grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, max-content);
+  grid-template-areas: 
+  "header"
+  "text"
+  "button";
+  justify-items: center;
+  grid-gap: 2vw;
+  padding: 4vw;
+  border: 1px solid gray;
+  border-radius: 2vw;
+  background-color: #5865F2;
+}
+
+#headerTitle-2 {
+  grid-area: header;
+  border: 1px solid gray;
+  font-family: 'Bebas Neue';
+  font-weight: lighter;
+  font-size: 8.3vw;
+  color: white;
+  margin: 0%;
+}
+
+#headerText-2 {
+  grid-area: text;
+  border: 1px solid gray;
+  font-family: 'Afacad';
+  font-size: 3.75vw;
+  text-align: center;
+  color: white;
+  margin: 0%;
+}
+
+#headerStoryButton {
+  grid-area: button;
+  border: 0.28vw solid white;
+  border-radius: 1.5vw;
+  font-family: 'Bebas Neue';
+  font-weight: lighter;
+  color: white;
+  text-decoration: none;
+  background-color: #5865F2;
+  width: fit-content;
+  padding: 1vw;
+}
+
+#headerStoryButton:active {
+  border: 0.28vw solid transparent;
+  color: #5865F2;
+  background-color: white;
+}
