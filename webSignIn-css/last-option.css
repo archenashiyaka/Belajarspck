@@ -1,10 +1,8 @@
 .lastOptionContainer {
   display: flex;
   justify-content: center;
-  border: 1px solid transparent;
-  padding: 2vw;
-  padding-top: 4vw;
-  padding-bottom: 0%;
+  border: 1px solid gray;
+  margin-top: 3.5vw;
   gap: 2vw;
 }
 
