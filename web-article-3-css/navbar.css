@@ -1,18 +1,42 @@
 .navbarContainer {
   display: grid;
-  grid-template-columns: ;
-  border: 1px solid lightgray;
+  grid-template-columns: 
+  auto 12.5vw 12.5vw 12.5vw 12.5vw;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "navnone nav-1 nav-2 nav-3 nav-4";
+  border: 1px solid gray;
   background-color: #A974FF;
+  width: 100%;
 }
 
 .navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid lightgray;
   color: white;
   font-family: 'Bebas Neue';
   font-weight: lighter;
+  font-size: 3vw;
+  margin: 0%;
+  margin: 1vw;
+}
+
+#nav-1 {
+  grid-area: nav-1;
+}
+
+#nav-2 {
+  grid-area: nav-2;
+}
+
+#nav-3 {
+  grid-area: nav-3;
 }
 
 #navContact {
+  grid-area: nav-4;
   border: 1px solid lightgray;
   font-family: 'Bebas Neue';
   font-weight: lighter;
