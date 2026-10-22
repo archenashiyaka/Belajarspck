@@ -1,9 +1,8 @@
 .lastOptionContainer {
   display: flex;
   justify-content: center;
-  border: 1px solid gray;
   margin-top: 3.5vw;
-  gap: 2vw;
+  gap: 1.5vw;
 }
 
 #lastOptionText {
