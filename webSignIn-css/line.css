@@ -4,7 +4,7 @@
   justify-content: center;
   padding-top: 2vw;
   padding-bottom: 2vw;
-  border: 1px solid transparent;
+  border: 1px solid gray;
 }
 
 .line {
@@ -16,6 +16,7 @@
 }
 
 #lineText {
+  border: 1px solid gray;
   font-family: 'Gotham Book';
   font-weight: lighter;
   font-size: 1.5vw;

@@ -3,20 +3,22 @@
   justify-content: center;
   border: 1px solid transparent;
   padding: 2vw;
+  padding-top: 4vw;
+  padding-bottom: 0%;
   gap: 2vw;
 }
 
 #lastOptionText {
   font-family: 'Gotham Book';
-  font-size: clamp(11.5px, 2vw, 100px);
+  font-size: clamp(1px, 1.5vw, 100px);
   margin: 0%;
 }
 
 #lastOption {
   display: block;
-  font-family: 'Gotham Medium';
-  font-weight: lighter;
-  font-size: clamp(12px, 2vw, 100px);
+  font-family: 'Gotham Book';
+  font-weight: bolder;
+  font-size: clamp(1px, 1.5vw, 100px);
   color: black;
   text-decoration: underline dotted;
   width: fit-content;
