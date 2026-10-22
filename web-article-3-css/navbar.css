@@ -1,0 +1,21 @@
+.navbarContainer {
+  display: grid;
+  grid-template-columns: ;
+  border: 1px solid lightgray;
+  background-color: #A974FF;
+}
+
+.navigation {
+  border: 1px solid lightgray;
+  color: white;
+  font-family: 'Bebas Neue';
+  font-weight: lighter;
+}
+
+#navContact {
+  border: 1px solid lightgray;
+  font-family: 'Bebas Neue';
+  font-weight: lighter;
+  color: #A974FF;
+  background-color: white;
+}
