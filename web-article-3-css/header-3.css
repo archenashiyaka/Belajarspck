@@ -19,7 +19,7 @@
   max-width: 100%;
   max-height: 100%;
   padding: 2vw;
-  width: 100%;
+  width: 60vw;
 }
 
 #headerTitle-3 {
@@ -31,6 +31,7 @@
   width: 90%;
   margin: 0%;
   margin-left: 10%;
+  padding-top: 1vw;
 }
 
 #headerText-3 {
@@ -38,7 +39,9 @@
   border: 1px solid gray;
   font-family: 'Afacad';
   font-size: 3.75vw;
+  text-align: justify;
   width: 90%;
   margin: 0%;
   margin-left: 10%;
+  padding-bottom: 1vw;
 }
