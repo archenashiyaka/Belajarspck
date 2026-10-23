@@ -19,7 +19,7 @@
   max-width: 100%;
   max-height: 100%;
   padding: 2vw;
-  width: 25vw;
+  width: 100%;
 }
 
 #headerTitle-3 {
@@ -28,9 +28,9 @@
   font-family: 'Bebas Neue';
   font-weight: lighter;
   font-size: 8.3vw;
-  width: 95%;
+  width: 90%;
   margin: 0%;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 #headerText-3 {
@@ -38,7 +38,7 @@
   border: 1px solid gray;
   font-family: 'Afacad';
   font-size: 3.75vw;
-  width: 95%;
+  width: 90%;
   margin: 0%;
-  margin-left: 5%;
+  margin-left: 10%;
 }
