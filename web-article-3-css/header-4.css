@@ -1,6 +1,6 @@
 .headerContainer-4 {
   display: inline-grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, max-content);
   grid-template-areas: 
   "title title"
