@@ -8,7 +8,6 @@
   grid-gap: 2vw;
   padding: 4vw;
   align-items: center;
-  border: 1px solid gray;
 }
 
 #headerImage-3 {
@@ -23,7 +22,6 @@
 
 #headerTitle-3 {
   grid-area: header;
-  border: 1px solid gray;
   font-family: 'Bebas Neue';
   font-weight: lighter;
   font-size: 8.3vw;
@@ -35,7 +33,6 @@
 
 #headerText-3 {
   grid-area: text-1;
-  border: 1px solid gray;
   font-family: 'Afacad';
   font-size: 3.75vw;
   text-align: justify;
