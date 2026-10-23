@@ -9,29 +9,28 @@
   justify-items: center;
   grid-gap: 2vw;
   padding: 4vw;
-  border: 1px solid gray;
   border-radius: 2vw;
   background-color: #5865F2;
 }
 
 #headerTitle-2 {
   grid-area: header;
-  border: 1px solid gray;
   font-family: 'Bebas Neue';
   font-weight: lighter;
   font-size: 8.3vw;
   color: white;
   margin: 0%;
+  padding-top: 1.25vw;
 }
 
 #headerText-2 {
   grid-area: text;
-  border: 1px solid gray;
   font-family: 'Afacad';
   font-size: 3.75vw;
   text-align: center;
   color: white;
   margin: 0%;
+  padding-bottom: 1.5vw;
 }
 
 #headerStoryButton {
