@@ -1,10 +1,9 @@
 .headerContainer-3 {
   display: inline-grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, max-content);
   grid-template-areas: 
   "image header"
-  "image text"
   "image text";
   grid-gap: 2vw;
   padding: 4vw;
@@ -28,7 +27,7 @@
   font-family: 'Bebas Neue';
   font-weight: lighter;
   font-size: 8.3vw;
-  width: 90%;
+  /*width: 90%;*/
   margin: 0%;
   margin-left: 10%;
   padding-top: 1vw;
@@ -40,7 +39,7 @@
   font-family: 'Afacad';
   font-size: 3.75vw;
   text-align: justify;
-  width: 90%;
+  /*width: 90%;*/
   margin: 0%;
   margin-left: 10%;
   padding-bottom: 1vw;
