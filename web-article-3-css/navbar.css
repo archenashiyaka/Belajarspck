@@ -5,7 +5,7 @@
   grid-template-rows: auto;
   grid-template-areas:
   "navnone nav-1 nav-2 nav-3 nav-4";
-  border: 1px solid gray;
+  border-radius: 0 0 1.5vw 1.5vw;
   background-color: #5865F2;
   width: 100%;
 }
@@ -13,7 +13,6 @@
 .navigation {
   display: flex;
   align-items: center;
-  border: 1px solid lightgray;
   color: white;
   font-family: 'Bebas Neue';
   font-weight: lighter;

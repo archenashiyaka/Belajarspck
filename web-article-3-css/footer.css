@@ -4,7 +4,7 @@
   grid-template-rows: repeat(1, max-content);
   grid-template-areas: 
   "contact wm";
-  border-radius: 1.5vw;
+  border-radius: 1.5vw 1.5vw 0 0;
   background-color: #5865F2;
   margin-top: 1vw;
   padding: 1vw;
@@ -16,7 +16,7 @@
   border-radius: 1.5vw;
   font-family: 'Bebas Neue';
   font-weight: lighter;
-  font-size: 3.5vw;
+  font-size: 3vw;
   width: fit-content;
   color: #5865F2;
   background-color: white;
@@ -31,7 +31,7 @@
   border: 1px solid gray;
   font-family: 'Bebas Neue';
   font-weight: lighter;
-  font-size: 3.5vw;
+  font-size: 3vw;
   color: white;
   padding: 1vw;
   margin: 0%;
