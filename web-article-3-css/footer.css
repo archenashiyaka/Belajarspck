@@ -12,7 +12,6 @@
 
 #footerTextContact {
   grid-area: contact;
-  border: 1px solid gray;
   border-radius: 1.5vw;
   font-family: 'Bebas Neue';
   font-weight: lighter;
@@ -28,7 +27,6 @@
   grid-area: wm;
   display: flex;
   justify-content: end;
-  border: 1px solid gray;
   font-family: 'Bebas Neue';
   font-weight: lighter;
   font-size: 3vw;

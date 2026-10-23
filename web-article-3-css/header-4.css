@@ -11,14 +11,12 @@
   padding: 4vw;
   grid-gap: 2vw;
   justify-items: center;
-  border: 1px solid gray;
   border-radius: 2vw;
   background-color: #5865F2;
 }
 
 .headerTitle-4 {
   grid-area: title;
-  border: 1px solid gray;
   font-family: 'Bebas Neue';
   font-weight: lighter;
   font-size: 8.3vw;
@@ -42,7 +40,6 @@
 }
 
 .headerText-4 {
-  border: 1px solid gray;
   font-family: 'Bebas Neue';
   font-weight: lighter;
   font-size: 4.4vw;
