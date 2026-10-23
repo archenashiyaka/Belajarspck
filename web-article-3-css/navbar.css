@@ -38,6 +38,7 @@
 #navContact {
   grid-area: nav-4;
   border: 1px solid lightgray;
+  border-radius: 1.5vw;
   font-family: 'Bebas Neue';
   font-weight: lighter;
   color: #5865F2;
