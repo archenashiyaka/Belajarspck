@@ -20,6 +20,7 @@
   margin: 0%;
   margin: 1vw;
   padding: 1vw;
+  padding-top: 1.5vw;
 }
 
 #nav-1 {
@@ -36,7 +37,6 @@
 
 #navContact {
   grid-area: nav-4;
-  border: 1px solid lightgray;
   border-radius: 1.5vw;
   font-family: 'Bebas Neue';
   font-weight: lighter;

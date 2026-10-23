@@ -13,7 +13,6 @@
 
 #headerTitle {
   grid-area: header;
-  border: 1px solid gray;
   font-family: 'Bebas Neue';
   font-weight: lighter;
   font-size: clamp(36px, 10vw, 200px);
@@ -24,7 +23,6 @@
 
 #headerText {
   grid-area: text-1;
-  border: 1px solid gray;
   font-family: 'Afacad';
   font-size: clamp(13.5px, 3.75vw, 100px);
   box-sizing: border-box;
