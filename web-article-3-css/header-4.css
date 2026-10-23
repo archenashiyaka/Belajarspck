@@ -1,0 +1,79 @@
+.headerContainer-4 {
+  display: inline-grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(5, max-content);
+  grid-template-areas: 
+  "title title"
+  "feature1 feature2"
+  "feature1-2 feature2-2"
+  "feature3 feature4"
+  "feature3-2 feature4-2";
+  padding: 4vw;
+  grid-gap: 2vw;
+  justify-items: center;
+  border: 1px solid gray;
+  border-radius: 2vw;
+  background-color: #5865F2;
+}
+
+.headerTitle-4 {
+  grid-area: title;
+  border: 1px solid gray;
+  font-family: 'Bebas Neue';
+  font-weight: lighter;
+  font-size: 8.3vw;
+  color: white;
+  text-align: center;
+  margin: 0%;
+}
+
+.headerImage-4Border {
+  display: flex;
+  border: 0.28vw solid white;
+  border-radius: 1.5vw;
+  padding: 2vw;
+  width: 70%;
+}
+
+.headerImage-4 {
+  border-radius: 1.5vw;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.headerText-4 {
+  border: 1px solid gray;
+  font-family: 'Bebas Neue';
+  font-weight: lighter;
+  font-size: 4.4vw;
+  color: white;
+  margin: 0%;
+}
+
+#headerImage-4-1 {
+  grid-area: feature1;
+}
+#headerText-4-1 {
+  grid-area: feature1-2;
+}
+
+#headerImage-4-2 {
+  grid-area: feature2;
+}
+#headerText-4-2 {
+  grid-area: feature2-2;
+}
+
+#headerImage-4-3 {
+  grid-area: feature3;
+}
+#headerText-4-3 {
+  grid-area: feature3-2;
+}
+
+#headerImage-4-4 {
+  grid-area: feature4;
+}
+#headerText-4-4 {
+  grid-area: feature4-2;
+}
